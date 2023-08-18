@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "name": "Test",
+      "city": "Hyderabad",
+      "phoneNo": "1234567890",
+      "email": "test@gmail.com",
+      "password": "testing",
+      "id": 1
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "testing",
+      "id": 2
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "hotelname": "Novotel",
+      "city": "Hyderabad",
+      "description": "A home to relax at the 'city' peek with all the facilities near you",
+      "amenities": "Different Cuisine Food, Swimming Pool, Self Cooking Station",
+      "phoneNo": 97211133323,
+      "address": "Hitech City Main Road, Kondapur ,Telangana",
+      "imageUrl": "/H1.jpg",
+      "reviews": {
+        "0": "Good Accomodation",
+        "1": "Best place to relax with friends and family",
+        "2": "The best place to chill with friends. ",
+        "3": "The best place I ever visited.",
+        "review": "Nice Accomidation"
+      }
+    },
+    {
+      "id": 2,
+      "hotelname": "Hyatt Palace",
+      "city": "Hyderabad",
+      "description": "A cool place to relax at Lake side",
+      "amenities": "Homely Food, Sea Food, Children's Park, Boating",
+      "phoneNo": 9191919191,
+      "address": "Banjara Hills, Hyderabad, Telangana",
+      "imageUrl": "/H2.jpg",
+      "reviews": [
+        "Must visit place. The cuisine available here is so amazing.",
+        "My favorite place to relax on my vacations"
+      ]
+    },
+    {
+      "id": 3,
+      "hotelname": "ITC Kohenur",
+      "city": "Hyderabad",
+      "description": "A luxurious but affordable stay as in your home",
+      "amenities": "24 hr Homely Food, Security, Children's Park",
+      "phoneNo": 9292929292,
+      "address": "Madhapur, Hyderabad, Telangana",
+      "imageUrl": "/H3.jpg",
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "hotelname": "The Park",
+      "city": "Hyderabad",
+      "description": "An affordable family stay spot at the 'City' heart",
+      "amenities": "24 hr Homely Food, Swimming Pool, Security",
+      "phoneNo": 9393939393,
+      "address": "Banjara Hills, Hyderabad, Telangana",
+      "imageUrl": "5.jpg",
+      "reviews": []
+    }
+  ],
+  "bookings": [
+    {
+      "startDate": "2023-08-06",
+      "endDate": "2023-08-08",
+      "noOfPersons": "1",
+      "noOfRooms": "1",
+      "typeOfRoom": "AC",
+      "hotelName": "Hyatt Palace",
+      "hotelId": "2",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "startDate": "2023-08-11",
+      "endDate": "2023-08-12",
+      "noOfPersons": "1",
+      "noOfRooms": "1",
+      "typeOfRoom": "AC",
+      "hotelName": "Novotel",
+      "hotelId": "1",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "startDate": "2023-08-11",
+      "endDate": "2023-08-12",
+      "noOfPersons": "1",
+      "noOfRooms": "1",
+      "typeOfRoom": "AC",
+      "hotelName": "ITC Kohenur",
+      "hotelId": "3",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "startDate": "2023-08-14",
+      "endDate": "2023-08-16",
+      "noOfPersons": "1",
+      "noOfRooms": "1",
+      "typeOfRoom": "AC",
+      "hotelName": "ITC Kohenur",
+      "hotelId": "3",
+      "userId": 1,
+      "id": 4
+    }
+  ]
+}
