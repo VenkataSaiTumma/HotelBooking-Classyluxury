@@ -72,6 +72,7 @@ const Reschedule = () => {
         <div className="Form">
           <div className="title">Book a Room</div>
           <form onSubmit={handleSubmit} className="allForm">
+            {/* Start Date */}
             <FormData
               type="date"
               name="startDate"

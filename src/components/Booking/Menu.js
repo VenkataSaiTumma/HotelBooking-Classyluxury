@@ -66,6 +66,7 @@ const Menu = ({ item }) => {
                 {typeOfRoom}
               </div>
 
+              {/* Update URL */}
               <Link to={`/reschedule/${id}`} className="btns">
                 Reschedule
               </Link>

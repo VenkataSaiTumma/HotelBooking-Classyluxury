@@ -29,6 +29,7 @@ const App = () => {
 
         <Route path="/bookings" element={user ? <Bookings /> : <ErrorPage />} />
 
+        {/* Update url */}
         <Route
           path="/reschedule/:id"
           element={user ? <Reschedule /> : <ErrorPage />}
