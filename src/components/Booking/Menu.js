@@ -1,5 +1,6 @@
 import { styled } from "styled-components";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Menu = ({ item }) => {
   // console.log(item);
@@ -64,6 +65,10 @@ const Menu = ({ item }) => {
                 <span>Type of Room: </span>
                 {typeOfRoom}
               </div>
+
+              <Link to={`/reschedule/${id}`} className="btn">
+                Reschedule
+              </Link>
             </article>
           );
         })}
@@ -127,6 +132,18 @@ const Wrapper = styled.div`
   .alignData {
     padding: 5px 0px 0px 2px;
     margin: 5px;
+  }
+
+  .btns {
+    background: linear-gradient(to left, #0677a1, #2d4159);
+    letter-spacing: 0.03rem;
+    color: white;
+    border: none;
+    width: 80px;
+    height: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    border-radius: 5px;
   }
 
   @media (max-width: 1035px) {

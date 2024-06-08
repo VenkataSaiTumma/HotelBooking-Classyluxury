@@ -12,6 +12,11 @@
       "email": "test@gmail.com",
       "password": "testing",
       "id": 2
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "testing",
+      "id": 3
     }
   ],
   "hotels": [
@@ -93,8 +98,8 @@
       "id": 2
     },
     {
-      "startDate": "2023-08-11",
-      "endDate": "2023-08-12",
+      "startDate": "2024-06-10",
+      "endDate": "2024-06-11",
       "noOfPersons": "1",
       "noOfRooms": "1",
       "typeOfRoom": "AC",

@@ -10,6 +10,7 @@ import AddReview from "./components/Review/AddReview";
 import ViewReview from "./components/Review/ViewReview";
 import Header from "./components/Header/Header";
 import ProfilePage from "./components/ProfilePage";
+import Reschedule from "./components/Update/Reschedule";
 
 const App = () => {
   const user = JSON.parse(localStorage.getItem("user"));
@@ -26,6 +27,11 @@ const App = () => {
           element={user ? <BookRoom /> : <ErrorPage />}
         />
         <Route path="/bookings" element={user ? <Bookings /> : <ErrorPage />} />
+
+        <Route
+          path="/reschedule/:id"
+          element={user ? <Reschedule /> : <ErrorPage />}
+        />
         <Route
           path="/addReview/:reviews"
           element={user ? <AddReview /> : <ErrorPage />}
