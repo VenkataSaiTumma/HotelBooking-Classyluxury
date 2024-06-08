@@ -66,7 +66,7 @@ const Menu = ({ item }) => {
                 {typeOfRoom}
               </div>
 
-              <Link to={`/reschedule/${id}`} className="btn">
+              <Link to={`/reschedule/${id}`} className="btns">
                 Reschedule
               </Link>
             </article>
